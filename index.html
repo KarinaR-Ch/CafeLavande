@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Lavande - Macarons, Cupcakes & Cookies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <nav class="header__nav">
+                    <div class="logo">
+                        <span class="logo__icon">⚜</span>
+                        <div class="logo__text">
+                            <span class="logo__main">Cafe Lavande</span>
+                            <span class="logo__sub">MACARONS & CUPCAKES</span>
+                        </div>
+                    </div>
+                    <ul class="header__menu">
+                        <li>
+                            <a class="link" href="#traditions-section">Our Traditions</a>
+                        </li>
+                        <li><a class="link" href="#menu-section">Menu</a></li>
+                        <li><a class="link" href="#chefs-section">Our Masters</a></li>
+                        <li><a class="link" href="#contact-section">Contacts</a></li>
+                    </ul>
+                </nav>
+                <button class="header__button button modal-btn-open" type="button">
+                    Request a Call
+                </button>
+                <div class="cart-icon" id="cart-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+                    </svg>
+                    <span class="cart-count">0</span>
+                </div>
+                <button class="header__burger menu-btn-open" type="button">
+                    <svg width="24" height="24">
+                        <use href="#icon-menu"></use>
+                    </svg>
+                </button>
+                <div class="mobile-menu">
+                    <button class="mobile-menu__btn-close menu-btn-close" type="button">
+                        <svg width="24" height="24">
+                            <use href="#icon-close"></use>
+                        </svg>
+                    </button>
+                    <div class="mobile-menu__logo logo logo--dark">
+                        <span class="logo__icon">⚜</span>
+                        <div class="logo__text">
+                            <span class="logo__main">Cafe Lavande</span>
+                            <span class="logo__sub">MACARONS & CUPCAKES</span>
+                        </div>
+                    </div>
+                    <ul class="mobile-menu__list">
+                        <li>
+                            <a class="mobile-menu__link" href="#traditions-section">
+                                Our Traditions
+                            </a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu__link" href="#menu-section">Menu</a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu__link" href="#chefs-section">
+                                Our Masters
+                            </a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu__link" href="#contact-section">
+                                Contacts
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="hero-section__title">
+                    <span class="text-brand">Cafe Lavande</span> <br>Macarons, Cupcakes & Cookies
+                </h1>
+                <button
+                    class="hero-section__button button modal-btn-open"
+                    type="button">Request a Call</button>
+            </div>
+        </section>
+        <section class="advantages-section">
+            <div class="container">
+                <h2 class="visually-hidden">Our Advantages</h2>
+                <ul class="advantages-section__list">
+                    <li class="advantages-section__item">Natural Ingredients</li>
+                    <li class="advantages-section__item">
+                        Unique Recipes
+                    </li>
+                    <li class="advantages-section__item">
+                        Fresh Baking Daily
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="traditions-section section" id="traditions-section">
+            <div class="container">
+                <div class="traditions-section__container">
+                    <div class="traditions-section__content">
+                        <h2 class="traditions-section__title section__title">
+                            The Art of Natural Sweets
+                        </h2>
+                        <p>
+                            <span class="text-brand text-bold text-uppercase">
+                                Cafe Lavande
+                            </span>
+                            is a cafe where every macaron, cupcake, and cookie is created with love and dedication to the art of pastry.
+                        </p>
+                        <p class="traditions-section__text">
+                            We use only the best natural ingredients —
+                            <span class="text-brand text-bold">
+                                organic flour, French butter, Belgian chocolate, and natural flavor extracts
+                            </span>
+                            . Our goal is to give you an unforgettable taste experience!
+                        </p>
+                    </div>
+                    <img
+                        class="traditions-section__image"
+                        src="https://images.unsplash.com/photo-1558326522-0d4c0e37b0d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Macarons of different colors"
+                    />
+                </div>
+            </div>
+        </section>
+        <section class="menu-section section" id="menu-section">
+            <div class="container">
+                <h2 class="menu-section__title section__title section__title--centered">
+                    Our <span class="text-brand">Menu</span>
+                </h2>
+                
+                <div class="menu-categories">
+                    <div class="menu-category" data-category="macarons">Macarons</div>
+                    <div class="menu-category" data-category="cupcakes">Cupcakes</div>
+                    <div class="menu-category" data-category="cookies">Cookies</div>
+                </div>
+                
+                <p style="text-align: center; max-width: 800px; margin: 0 auto 40px;">
+                    Click on a category to view the complete menu with descriptions of each product, 
+                    created with natural ingredients and unique flavor combinations.
+                </p>
+            </div>
+        </section>
+        
+        <!-- Menu Modals -->
+        <div class="menu-modal" id="macarons-modal">
+            <div class="menu-modal__content">
+                <button class="menu-modal__close">
+                    <svg width="24" height="24">
+                        <use href="#icon-close"></use>
+                    </svg>
+                </button>
+                <h2 class="menu-modal__title section__title">Macarons</h2>
+                <ul class="menu-modal__list">
+                    <!-- 10 types of macarons with unique images -->
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Strawberry-Macarons-1000x1000.webp" alt="Strawberry Macaron">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Strawberry Macaron</h3>
+                            <p class="menu-modal__description">Delicate macaron with natural strawberry filling made from fresh berries</p>
+                            <p class="menu-modal__price">$2.50</p>
+                            <button class="menu-modal__add-btn" data-id="macaron-1" data-name="Strawberry Macaron" data-price="2.50" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Strawberry-Macarons-1000x1000.webp">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/chocolate-macaron-recipe.jpg" alt="Chocolate Macaron">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Chocolate Macaron</h3>
+                            <p class="menu-modal__description">Rich macaron with Belgian chocolate and a hint of nuts</p>
+                            <p class="menu-modal__price">$2.70</p>
+                            <button class="menu-modal__add-btn" data-id="macaron-2" data-name="Chocolate Macaron" data-price="2.70" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/chocolate-macaron-recipe.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/lavender-macaron-595x595.jpg" alt="Lavender Macaron">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Lavender Macaron</h3>
+                            <p class="menu-modal__description">Unique macaron with lavender and white chocolate</p>
+                            <p class="menu-modal__price">$3.00</p>
+                            <button class="menu-modal__add-btn" data-id="macaron-3" data-name="Lavender Macaron" data-price="3.00" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/lavender-macaron-595x595.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/lemon-macarons-recipe-500x500.jpg" alt="Lemon Macaron">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Lemon Macaron</h3>
+                            <p class="menu-modal__description">Refreshing macaron with lemon curd and zest</p>
+                            <p class="menu-modal__price">$2.60</p>
+                            <button class="menu-modal__add-btn" data-id="macaron-4" data-name="Lemon Macaron" data-price="2.60" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/lemon-macarons-recipe-500x500.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/20250430101450-pistachio-20macaron-20recipe-20uk.webp" alt="Pistachio Macaron">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Pistachio Macaron</h3>
+                            <p class="menu-modal__description">Delicate macaron with pistachio paste and whole nuts</p>
+                            <p class="menu-modal__price">$3.20</p>
+                            <button class="menu-modal__add-btn" data-id="macaron-5" data-name="Pistachio Macaron" data-price="3.20" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/20250430101450-pistachio-20macaron-20recipe-20uk.webp">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Vanilla%20Macaron.jpg" alt="Vanilla Macaron">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Vanilla Macaron</h3>
+                            <p class="menu-modal__description">Classic macaron with natural Madagascar vanilla</p>
+                            <p class="menu-modal__price">$2.50</p>
+                            <button class="menu-modal__add-btn" data-id="macaron-6" data-name="Vanilla Macaron" data-price="2.50" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Vanilla%20Macaron.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/finished-salted-caramel-macarons-horiz-lower-angle.jpg" alt="Caramel Macaron">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Caramel Macaron</h3>
+                            <p class="menu-modal__description">Sweet macaron with salted caramel and sea salt</p>
+                            <p class="menu-modal__price">$2.80</p>
+                            <button class="menu-modal__add-btn" data-id="macaron-7" data-name="Caramel Macaron" data-price="2.80" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/finished-salted-caramel-macarons-horiz-lower-angle.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Raspberry%20Macaron.jpg" alt="Raspberry Macaron">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Raspberry Macaron</h3>
+                            <p class="menu-modal__description">Fragrant macaron with raspberry jam and mint leaves</p>
+                            <p class="menu-modal__price">$2.60</p>
+                            <button class="menu-modal__add-btn" data-id="macaron-8" data-name="Raspberry Macaron" data-price="2.60" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Raspberry%20Macaron.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/toasted-coconut-macarons-1200x1200-1-500x375.jpg" alt="Coconut Macaron">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Coconut Macaron</h3>
+                            <p class="menu-modal__description">Exotic macaron with coconut cream and coconut flakes</p>
+                            <p class="menu-modal__price">$2.90</p>
+                            <button class="menu-modal__add-btn" data-id="macaron-9" data-name="Coconut Macaron" data-price="2.90" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/toasted-coconut-macarons-1200x1200-1-500x375.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Salted-Honey-Coffee-Macarons-7-683x1024.jpg" alt="Honey Nut Macaron">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Honey Nut Macaron</h3>
+                            <p class="menu-modal__description">Nutritious macaron with honey and a mix of nuts</p>
+                            <p class="menu-modal__price">$3.10</p>
+                            <button class="menu-modal__add-btn" data-id="macaron-10" data-name="Honey Nut Macaron" data-price="3.10" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Salted-Honey-Coffee-Macarons-7-683x1024.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-modal" id="cupcakes-modal">
+            <div class="menu-modal__content">
+                <button class="menu-modal__close">
+                    <svg width="24" height="24">
+                        <use href="#icon-close"></use>
+                    </svg>
+                </button>
+                <h2 class="menu-modal__title section__title">Cupcakes</h2>
+                <ul class="menu-modal__list">
+                    <!-- 10 types of cupcakes -->
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://images.unsplash.com/photo-1574085733277-851d9d856a3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Red Velvet">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Red Velvet</h3>
+                            <p class="menu-modal__description">Classic red velvet with cream cheese and white chocolate</p>
+                            <p class="menu-modal__price">$3.50</p>
+                            <button class="menu-modal__add-btn" data-id="cupcake-1" data-name="Red Velvet" data-price="3.50" data-image="https://images.unsplash.com/photo-1574085733277-851d9d856a3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg" alt="Chocolate Cupcake">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Chocolate Cupcake</h3>
+                            <p class="menu-modal__description">Rich chocolate cupcake with ganache and caramel</p>
+                            <p class="menu-modal__price">$3.40</p>
+                            <button class="menu-modal__add-btn" data-id="cupcake-2" data-name="Chocolate Cupcake" data-price="3.40" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Vanilla%20Cupcake.jpg" alt="Vanilla Cupcake">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Vanilla Cupcake</h3>
+                            <p class="menu-modal__description">Delicate vanilla cupcake with vanilla cream and sugar pearls</p>
+                            <p class="menu-modal__price">$3.20</p>
+                            <button class="menu-modal__add-btn" data-id="cupcake-3" data-name="Vanilla Cupcake" data-price="3.20" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Vanilla%20Cupcake.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Lemon%20Cupcake.jpg" alt="Lemon Cupcake">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Lemon Cupcake</h3>
+                            <p class="menu-modal__description">Refreshing lemon cupcake with lemon cream and zest</p>
+                            <p class="menu-modal__price">$3.30</p>
+                            <button class="menu-modal__add-btn" data-id="cupcake-4" data-name="Lemon Cupcake" data-price="3.30" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Lemon%20Cupcake.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Caramel%20Cupcake.jpg" alt="Caramel Cupcake">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Caramel Cupcake</h3>
+                            <p class="menu-modal__description">Sweet cupcake with salted caramel and pecans</p>
+                            <p class="menu-modal__price">$3.50</p>
+                            <button class="menu-modal__add-btn" data-id="cupcake-5" data-name="Caramel Cupcake" data-price="3.50" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Caramel%20Cupcake.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Coconut Cupcake">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Coconut Cupcake</h3>
+                            <p class="menu-modal__description">Exotic coconut cupcake with coconut cream and pineapple</p>
+                            <p class="menu-modal__price">$3.50</p>
+                            <button class="menu-modal__add-btn" data-id="cupcake-6" data-name="Coconut Cupcake" data-price="3.50" data-image="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Strawberry%20Cupcake.jpg" alt="Strawberry Cupcake">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Strawberry Cupcake</h3>
+                            <p class="menu-modal__description">Juicy strawberry cupcake with strawberry cream and fresh berries</p>
+                            <p class="menu-modal__price">$3.40</p>
+                            <button class="menu-modal__add-btn" data-id="cupcake-7" data-name="Strawberry Cupcake" data-price="3.40" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Strawberry%20Cupcake.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Peanut%20Butter%20Cupcake.jpg" alt="Peanut Butter Cupcake">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Peanut Butter Cupcake</h3>
+                            <p class="menu-modal__description">Nutritious cupcake with peanut butter and peanut pieces</p>
+                            <p class="menu-modal__price">$3.60</p>
+                            <button class="menu-modal__add-btn" data-id="cupcake-8" data-name="Peanut Butter Cupcake" data-price="3.60" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Peanut%20Butter%20Cupcake.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Mint%20Cupcake.jpg" alt="Mint Cupcake">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Mint Cupcake</h3>
+                            <p class="menu-modal__description">Refreshing mint cupcake with chocolate and mint cream</p>
+                            <p class="menu-modal__price">$3.30</p>
+                            <button class="menu-modal__add-btn" data-id="cupcake-9" data-name="Mint Cupcake" data-price="3.30" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Mint%20Cupcake.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Lavender%20Cupcake.jpg" alt="Lavender Cupcake">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Lavender Cupcake</h3>
+                            <p class="menu-modal__description">Unique lavender cupcake with honey cream and lavender flowers</p>
+                            <p class="menu-modal__price">$3.80</p>
+                            <button class="menu-modal__add-btn" data-id="cupcake-10" data-name="Lavender Cupcake" data-price="3.80" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Lavender%20Cupcake.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-modal" id="cookies-modal">
+            <div class="menu-modal__content">
+                <button class="menu-modal__close">
+                    <svg width="24" height="24">
+                        <use href="#icon-close"></use>
+                    </svg>
+                </button>
+                <h2 class="menu-modal__title section__title">Cookies</h2>
+                <ul class="menu-modal__list">
+                    <!-- 10 types of cookies -->
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Chocolate%20Cookie.jpg" alt="Chocolate Cookie">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Chocolate Cookie</h3>
+                            <p class="menu-modal__description">Crispy cookie with pieces of Belgian chocolate</p>
+                            <p class="menu-modal__price">$2.00</p>
+                            <button class="menu-modal__add-btn" data-id="cookie-1" data-name="Chocolate Cookie" data-price="2.00" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Chocolate%20Cookie.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Vanilla Cookie">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Vanilla Cookie</h3>
+                            <p class="menu-modal__description">Delicate vanilla cookie with powdered sugar</p>
+                            <p class="menu-modal__price">$1.80</p>
+                            <button class="menu-modal__add-btn" data-id="cookie-2" data-name="Vanilla Cookie" data-price="1.80" data-image="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Gingerbread%20Cookie.jpg" alt="Gingerbread Cookie">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Gingerbread Cookie</h3>
+                            <p class="menu-modal__description">Fragrant gingerbread cookie with honey and spices</p>
+                            <p class="menu-modal__price">$2.10</p>
+                            <button class="menu-modal__add-btn" data-id="cookie-3" data-name="Gingerbread Cookie" data-price="2.10" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Gingerbread%20Cookie.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Oatmeal%20Cookie.jpg" alt="Oatmeal Cookie">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Oatmeal Cookie</h3>
+                            <p class="menu-modal__description">Healthy oatmeal cookie with raisins and honey</p>
+                            <p class="menu-modal__price">$2.00</p>
+                            <button class="menu-modal__add-btn" data-id="cookie-4" data-name="Oatmeal Cookie" data-price="2.00" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Oatmeal%20Cookie.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Peanut%20Butter%20Cookie.jpg" alt="Peanut Butter Cookie">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Peanut Butter Cookie</h3>
+                            <p class="menu-modal__description">Nutritious cookie with peanut butter and whole nuts</p>
+                            <p class="menu-modal__price">$2.20</p>
+                            <button class="menu-modal__add-btn" data-id="cookie-5" data-name="Peanut Butter Cookie" data-price="2.20" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Peanut%20Butter%20Cookie.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Lemon%20Cookie.jpg" alt="Lemon Cookie">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Lemon Cookie</h3>
+                            <p class="menu-modal__description">Refreshing lemon cookie with zest and glaze</p>
+                            <p class="menu-modal__price">$1.90</p>
+                            <button class="menu-modal__add-btn" data-id="cookie-6" data-name="Lemon Cookie" data-price="1.90" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Lemon%20Cookie.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Coconut%20Cookie.jpg" alt="Coconut Cookie">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Coconut Cookie</h3>
+                            <p class="menu-modal__description">Exotic coconut cookie with coconut flakes</p>
+                            <p class="menu-modal__price">$2.10</p>
+                            <button class="menu-modal__add-btn" data-id="cookie-7" data-name="Coconut Cookie" data-price="2.10" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Coconut%20Cookie.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Honey%20Cookie.jpg" alt="Honey Cookie">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Honey Cookie</h3>
+                            <p class="menu-modal__description">Fragrant honey cookie with spices</p>
+                            <p class="menu-modal__price">$2.20</p>
+                            <button class="menu-modal__add-btn" data-id="cookie-8" data-name="Honey Cookie" data-price="2.20" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Honey%20Cookie.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Almond%20Cookie.jpg" alt="Almond Cookie">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Almond Cookie</h3>
+                            <p class="menu-modal__description">Crispy cookie with whole almonds and vanilla</p>
+                            <p class="menu-modal__price">$2.30</p>
+                            <button class="menu-modal__add-btn" data-id="cookie-9" data-name="Almond Cookie" data-price="2.30" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Almond%20Cookie.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li class="menu-modal__item">
+                        <img class="menu-modal__image" src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Blueberry%20Cookie.jpg" alt="Blueberry Cookie">
+                        <div class="menu-modal__details">
+                            <h3 class="menu-modal__name">Blueberry Cookie</h3>
+                            <p class="menu-modal__description">Juicy cookie with fresh blueberries and lemon zest</p>
+                            <p class="menu-modal__price">$2.30</p>
+                            <button class="menu-modal__add-btn" data-id="cookie-10" data-name="Blueberry Cookie" data-price="2.30" data-image="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/Blueberry%20Cookie.jpg">Add to Cart</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Cart Modal -->
+        <div class="cart-modal" id="cart-modal">
+            <div class="cart-modal__header">
+                <h2 class="cart-modal__title">Your Cart</h2>
+                <button class="cart-modal__close" id="cart-close">×</button>
+            </div>
+            <div class="cart-modal__content" id="cart-content">
+                <div class="cart-modal__empty" id="cart-empty">
+                    <p>Your cart is empty</p>
+                </div>
+                <!-- Cart items will be added here dynamically -->
+            </div>
+            <div class="cart-modal__footer">
+                <div class="cart-modal__total">
+                    <span>Total:</span>
+                    <span id="cart-total">$0</span>
+                </div>
+                <button class="cart-modal__checkout" id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+
+        <!-- Checkout Modal -->
+        <div class="checkout-modal" id="checkout-modal">
+            <div class="checkout-modal__content">
+                <button class="checkout-modal__close" id="checkout-close">
+                    <svg width="24" height="24">
+                        <use href="#icon-close"></use>
+                    </svg>
+                </button>
+                <h2 class="checkout-modal__title">Checkout</h2>
+                <form id="checkout-form">
+                    <div class="checkout-items" id="checkout-items">
+                        <!-- Checkout items will be added here dynamically -->
+                    </div>
+                    <div class="checkout-total">
+                        <span>Total:</span>
+                        <span id="checkout-total">$0</span>
+                    </div>
+                    <div class="input">
+                        <input class="input__control" type="text" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="input">
+                        <input class="input__control" type="tel" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="input">
+                        <input class="input__control" type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="input">
+                        <textarea class="input__control" name="address" placeholder="Delivery Address" rows="3" required></textarea>
+                    </div>
+                    <div class="input">
+                        <textarea class="input__control" name="notes" placeholder="Additional Notes" rows="2"></textarea>
+                    </div>
+                    <button type="submit" class="button" style="width: 100%; margin-top: 20px;">Place Order</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Success Modal -->
+        <div class="success-modal" id="success-modal">
+            <div class="success-modal__content">
+                <h2 class="success-modal__title">Thank You!</h2>
+                <p class="success-modal__text">Thank you for your request! We will contact you shortly.</p>
+                <button class="success-modal__button" id="success-ok">OK</button>
+            </div>
+        </div>
+        
+        <section class="chefs-section section" id="chefs-section">
+            <div class="container">
+                <h2
+                    class="chefs-section__title section__title section__title--centered"
+                >
+                    Our Masters <br />
+                    <span class="text-brand-dark">of the Pastry Art</span>
+                </h2>
+                <ul class="chefs-section__list">
+                    <li class="chefs-section__item">
+                        <article class="chef-card">
+                            <img
+                                class="chef-card__photo"
+                                src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/wsbaker-holding-bread-stockcake.jpg"
+                                alt="Maria - macaron master"
+                            />
+                            <div>
+                                <h3 class="chef-card__title">Maria</h3>
+                                <p class="chef-card__text">Hello, I'm Maria!</p>
+                                <p class="chef-card__text">
+                                    For 8 years, I have specialized in creating perfect macarons.
+                                    Each of my macarons is a small work of art.
+                                </p>
+                                <p class="chef-card__text">
+                                    I create the most delicious and beautiful macarons for you!
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="chefs-section__item">
+                        <article class="chef-card">
+                            <img
+                                class="chef-card__photo"
+                                src="https://raw.githubusercontent.com/KarinaR-Ch/CafeLavande/refs/heads/main/mjoyful-baker-working-stockcake.jpg"
+                                alt="Alexander - cupcake master"
+                            />
+                            <div>
+                                <h3 class="chef-card__title">Alexander</h3>
+                                <p class="chef-card__text">Hello, I'm Alexander!</p>
+                                <p class="chef-card__text">
+                                    My specialty is cupcakes. Over 10 years, I have developed over 50 unique recipes.
+                                    Cafe Lavande is my creative space.
+                                </p>
+                                <p class="chef-card__text">
+                                    I will prepare cupcakes for you that you will never forget!
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contact-section section" id="contact-section">
+            <div class="container">
+                <div class="contact-section__container">
+                    <div class="contact-section__form">
+                        <h2 class="contact-section__title section__title">
+                            Order Sweets!
+                        </h2>
+                        <p>Leave your contacts and we will call you back to clarify your order!</p>
+                        <form name="contact-form" autocomplete="off">
+                            <div class="contact-section__form-field input">
+                                <label class="input__label visually-hidden" for="user-name">
+                                    Name
+                                </label>
+                                <input
+                                    class="input__control"
+                                    type="text"
+                                    name="user-name"
+                                    id="user-name"
+                                    placeholder="Name"
+                                    required
+                                />
+                            </div>
+
+                            <div class="contact-section__form-field input">
+                                <label class="input__label visually-hidden" for="user-tel">
+                                    Phone
+                                </label>
+                                <input
+                                    class="input__control"
+                                    type="tel"
+                                    name="user-tel"
+                                    id="user-tel"
+                                    placeholder="Phone"
+                                    pattern="^\+[0-9]{12}"
+                                    required
+                                />
+                            </div>
+
+                            <div class="contact-section__form-field input">
+                                <label class="input__label visually-hidden" for="user-email">
+                                    Email
+                                </label>
+                                <input
+                                    class="input__control"
+                                    type="email"
+                                    name="user-email"
+                                    id="user-email"
+                                    placeholder="Email"
+                                    required
+                                />
+                            </div>
+
+                            <button class="contact-section__button button" type="submit">
+                                Request a Call
+                            </button>
+                            <p class="form-terms">
+                                By clicking the button I agree to the
+                                <a class="form-terms__link" href="#">
+                                    privacy policy
+                                </a>
+                            </p>
+                        </form>
+                    </div>
+                    <iframe
+                        class="contact-section__map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.073492553077!2d-84.301223524234!3d34.01896557319266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5756ffa95e187%3A0x810c2b9c0ccbaf16!2s13087%20GA-9%20Suite%20910%2C%20Milton%2C%20GA%2030004%2C%20USA!5e0!3m2!1sen!2sua!4v1717400000000!5m2!1sen!2sua"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <nav class="footer__nav">
+                    <div class="footer__logo">
+                        <div class="logo">
+                            <span class="logo__icon">⚜</span>
+                        <div class="logo__text">
+                            <span class="logo__main">Cafe Lavande</span>
+                            <span class="logo__sub">MACARONS & CUPCAKES</span>
+                        </div>
+                    </div>
+                    <ul class="footer__menu">
+                        <li><a class="link" href="#traditions-section">Our Traditions</a></li>
+                        <li><a class="link" href="#menu-section">Menu</a></li>
+                        <li><a class="link" href="#chefs-section">Our Masters</a></li>
+                        <li><a class="link" href="#contact-section">Contacts</a></li>
+                    </ul>
+                </nav>
+                <address class="footer__address">
+                    <div class="footer__contacts">
+                        <ul class="footer__address-list">
+                            <li>
+                                <a class="footer__address-link" href="tel:+17700000000">
+                                    +1 (770) 000-0000
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    class="footer__address-link"
+                                    href="mailto:cafelavande@gmail.com"
+                                >
+                                    cafelavande@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    class="footer__address-link"
+                                    href="https://maps.app.goo.gl/tXvUHAzawX5QE2c26"
+                                    target="_blank"
+                                >
+                                    13087 GA-9 Suite 910, Milton, GA 30004, United States
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="footer__socials">
+                            <a href="#">
+                                <svg class="footer__socials-icon" width="32" height="32">
+                                    <use href="#icon-facebook"></use>
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg class="footer__socials-icon" width="32" height="32">
+                                    <use href="#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__address-info">
+                        <a class="footer__address-link" href="#" target="_blank">
+                            Privacy Policy
+                        </a>
+                        <p class="footer__address-copyright">&copy; 2025 Cafe Lavande. Coded by 👩‍💻 Karina Repinska-Churkina. All rights reserved.</p>
+                    </div>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <div class="backdrop is-hidden">
+        <div class="modal">
+            <button class="modal__btn-close modal-btn-close" type="button">
+                <svg width="24" height="24">
+                    <use href="#icon-close"></use>
+                </svg>
+            </button>
+            <h2 class="modal__title">Request a Call</h2>
+            <p class="modal__text">
+                Leave a request and our specialist will contact you!
+            </p>
+            <form name="modal-form" autocomplete="off">
+                <div class="modal__form-field input">
+                    <label class="input__label visually-hidden" for="user-name">
+                        Name
+                    </label>
+                    <input
+                        class="input__control"
+                        type="text"
+                        name="user-name"
+                        id="user-name"
+                        placeholder="Name"
+                        required
+                    />
+                </div>
+
+                <div class="modal__form-field input">
+                    <label class="input__label visually-hidden" for="user-tel">
+                        Phone
+                    </label>
+                    <input
+                        class="input__control"
+                        type="tel"
+                        name="user-tel"
+                        id="user-tel"
+                        placeholder="Phone"
+                        pattern="^\+[0-9]{12}"
+                        required
+                    />
+                </div>
+
+                <div class="modal__form-field input">
+                    <label class="input__label visually-hidden" for="user-email">
+                        Email
+                    </label>
+                    <input
+                        class="input__control"
+                        type="email"
+                        name="user-email"
+                        id="user-email"
+                        placeholder="Email"
+                        required
+                    />
+                </div>
+
+                <button class="modal__button button" type="submit">
+                    Request a Call
+                </button>
+                <p class="form-terms">
+                    By clicking the button I agree to the
+                    <a class="form-terms__link" href="#">privacy policy</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- SVG Icons -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="icon-menu" viewBox="0 0 24 24">
+            <path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/>
+        </symbol>
+        <symbol id="icon-close" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+        </symbol>
+        <symbol id="icon-facebook" viewBox="0 0 32 32">
+            <path d="M16 0c8.837 0 16 7.163 16 16s-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0zm4.5 8.5h-3c-1.381 0-2.5 1.119-2.5 2.5v2.5h-2v3h2v8h3v-8h2.5l.5-3h-3v-2.5c0-.276.224-.5.5-.5h2.5v-3z"/>
+        </symbol>
+        <symbol id="icon-instagram" viewBox="0 0 32 32">
+            <path d="M16 2.881c4.275 0 4.781.019 6.462.094 1.563.069 2.406.325 2.969.544.731.288 1.256.631 1.806 1.181.550.55.894 1.075 1.181 1.806.219.563.475 1.406.544 2.969.075 1.681.094 2.188.094 6.462s-.019 4.781-.094 6.462c-.069 1.563-.325 2.406-.544 2.969-.288.731-.631 1.256-1.181 1.806-.550.55-1.075.894-1.806 1.181-.563.219-1.406.475-2.969.544-1.681.075-2.188.094-6.462.094s-4.781-.019-6.462-.094c-1.563-.069-2.406-.325-2.969-.544-.731-.288-1.256-.631-1.806-1.181-.550-.55-.894-1.075-1.181-1.806-.219-.563-.475-1.406-.544-2.969-.075-1.681-.094-2.188-.094-6.462s.019-4.781.094-6.462c.069-1.563.325-2.406.544-2.969.288-.731.631-1.256 1.181-1.806.550-.55 1.075-.894 1.806-1.181.563-.219 1.406-.475 2.969-.544 1.681-.075-2.188.094-6.462.094zm0-2.881c-4.344 0-4.887.019-6.594.094-1.7.075-2.869.35-3.881.744-1.056.413-1.95.956-2.825 1.831S1.548 4.588 1.135 5.644C.741 6.656.466 7.825.391 9.525.316 11.231.297 11.775.297 16.119s.019 4.887.094 6.594c.075 1.7.35 2.869.744 3.881.413 1.056.956 1.95 1.831 2.825s1.769 1.419 2.825 1.831c1.013.394 2.181.669 3.881.744 1.706.075 2.25.094 6.594.094s4.887-.019 6.594-.094c1.7-.075 2.869-.35 3.881-.744 1.056-.413 1.95-.956 2.825-1.831s1.419-1.769 1.831-2.825c.394-1.013.669-2.181.744-3.881.075-1.706.094-2.25.094-6.594s-.019-4.887-.094-6.594c-.075-1.7-.35-2.869-.744-3.881-.413-1.056-.956-1.95-1.831-2.825S27.65 1.548 26.594 1.135C25.581.741 24.413.466 22.713.391 21.006.316 20.462.297 16.119.297 11.775.297 11.231.316 9.525.391zM16 7.75c-4.549 0-8.25 3.701-8.25 8.25s3.701 8.25 8.25 8.25 8.25-3.701 8.25-8.25S20.549 7.75 16 7.75zm0 13.5c-2.899 0-5.25-2.351-5.25-5.25s2.351-5.25 5.25-5.25 5.25 2.351 5.25 5.25-2.351 5.25-5.25 5.25zM26.375 7.75c0 1.037-.838 1.875-1.875 1.875s-1.875-.838-1.875-1.875.838-1.875 1.875-1.875 1.875.838 1.875 1.875z"/>
+        </symbol>
+    </svg>
+
+    <script src="script.js"></script>
+</body>
+</html>
