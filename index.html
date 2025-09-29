@@ -371,6 +371,7 @@
                 display: flex;
                 align-items: center;
                 padding: 0;
+                background-position: center 25%; /* Adjusted to show more macarons */
             }
         }
 
@@ -488,8 +489,8 @@
 
         @media screen and (min-width: 1280px) {
             .traditions-section__container {
-                flex-direction: row;
-                gap: 80px;
+                flex-direction: column;
+                gap: 60px;
             }
         }
 
@@ -501,8 +502,8 @@
 
         @media screen and (min-width: 1280px) {
             .traditions-section__content {
-                max-width: 50%;
-                text-align: left;
+                max-width: 80%;
+                text-align: center;
                 padding: 0;
             }
         }
@@ -510,12 +511,6 @@
         .traditions-section__title {
             margin-bottom: 42px;
             text-align: center;
-        }
-
-        @media screen and (min-width: 1280px) {
-            .traditions-section__title {
-                text-align: left;
-            }
         }
 
         .traditions-section__text {
@@ -529,36 +524,12 @@
             .traditions-section__text {
                 max-width: 100%;
                 padding: 0;
-                text-align: left;
+                text-align: center;
             }
         }
 
         .traditions-section__image {
             display: none;
-            border-radius: 400px 400px 0px 0px;
-            max-width: 100%;
-        }
-
-        @media screen and (min-width: 768px) {
-            .traditions-section__image {
-                display: block
-            }
-            
-            .traditions-section__content {
-                max-width: 90%;
-            }
-            
-            .traditions-section__text {
-                max-width: 90%;
-                padding: 0;
-            }
-        }
-
-        @media screen and (min-width: 1280px) {
-            .traditions-section__image {
-                max-width: 45%;
-                border-radius: 24px;
-            }
         }
 
         /* Menu Section - Adjusted for desktop */
@@ -1461,9 +1432,18 @@
             fill: var(--color-accent)
         }
 
-        .footer__address-copyright {
+        .footer__copyright {
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer__copyright-text {
             color: var(--color-secondary-dark);
-            font-size: 14px
+            font-size: 14px;
+            margin: 0;
         }
 
         /* Mobile Menu */
@@ -1728,11 +1708,6 @@
                             . Our goal is to give you an unforgettable taste experience!
                         </p>
                     </div>
-                    <img
-                        class="traditions-section__image"
-                        src="https://images.unsplash.com/photo-1558326522-0d4c0e37b0d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                        alt="Macarons of different colors"
-                    />
                 </div>
             </div>
         </section>
@@ -2325,9 +2300,11 @@
                         <a class="footer__address-link" href="#" target="_blank">
                             Privacy Policy
                         </a>
-                        <p class="footer__address-copyright">&copy; 2025 Cafe Lavande. Coded by 👩‍💻 Karina Repinska-Churkina. All rights reserved.</p>
                     </div>
                 </address>
+            </div>
+            <div class="footer__copyright">
+                <p class="footer__copyright-text">&copy; 2025 Cafe Lavande. Coded by 👩‍💻 Karina Repinska-Churkina. All rights reserved.</p>
             </div>
         </div>
     </footer>
